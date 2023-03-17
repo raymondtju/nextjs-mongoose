@@ -7,8 +7,7 @@ export default async function create(
   res: NextApiResponse
 ): Promise<any> {
   const { method } = req;
-  const userAgent = req.headers["user-agent"];
-  console.log(userAgent);
+
   await clientPromise;
   await Test.init();
 
@@ -24,7 +23,6 @@ export default async function create(
           data: create,
         });
       } catch (err) {
-        console.log(err);
         res.status(400).json({
           message: err.message,
         });
