@@ -7,9 +7,6 @@
   <a href="https://twitter.com/raymondtju_">
     <img src="https://img.shields.io/twitter/follow/raymondtju_?style=flat&label=raymondtju_&logo=twitter&color=0bf&logoColor=fff" alt="Raymond Tju Twitter follower count" />
   </a>
-  <a href="https://github.com/raymondtju/nextjs-mongoose">
-    <img src="https://img.shields.io/github/stars/raymondtju/nextjs-mongoose?label=raymondtju%2Fnextjs-mongoose" alt="nextjs-mongoose repo star count" />
-  </a>
 </p>
 
 ## Getting Started
@@ -30,7 +27,11 @@ You can start editing the page by modifying `src/pages/index.tsx`. The page auto
 
 Configuring of Mongo Model can be done at `./lib/model/test.model.ts`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/test/create](http://localhost:3000/api/hello). This endpoint can be edited in `src/pages/api/test/create.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/test/create](http://localhost:3000/api/hello). This endpoint can be edited in `src/pages/api/test/create.ts`
+.
+### How to connect to MongoAtlas Database
+
+Connect to your MongoAtlas Database by creating .env.local and create var name MONGODB_URI = ...
 
 ### Cloud Database
 
