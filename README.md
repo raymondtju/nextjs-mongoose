@@ -30,7 +30,7 @@ You can start editing the page by modifying `src/pages/index.tsx`. The page auto
 
 Configuring of Mongo Model can be done at `./lib/model/test.model.ts`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `src/pages/api/test/create.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/test/create](http://localhost:3000/api/hello). This endpoint can be edited in `src/pages/api/test/create.ts`.
 
 ### Cloud Database
 
